@@ -5,6 +5,7 @@ linux
 linux-firmware
 networkmanager
 pacdef
+rsync
 tcpdump
 wireshark-qt
 vim
