@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# First, store pw with:
+# secret-tool store --label='uzhvpn' uzhvpn password
+PASSW=$(secret-tool lookup uzhvpn password)
+USER=$(secret-tool lookup uzhvpn user)
+
+echo $PASSW | sudo openconnect uzhvpn1.uzh.ch --authgroup ALL -u $USER --passwd-on-stdin
