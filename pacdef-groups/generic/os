@@ -1,8 +1,10 @@
 firefox
+gcc
 gconf
 grub
 linux
 linux-firmware
+make
 networkmanager
 pacdef
 rsync
